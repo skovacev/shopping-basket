@@ -31,4 +31,6 @@ During the process of maven packaging documentation will be generated under targ
 *  target/jsondoc-ui/jsondoc-ui.html
 
 Please check [JsonDoc](http://jsondoc.org/index.html "JsonDoc") for more information's. 
+
+![JsonDoc](jsondoc.PNG "JSONDoc") 
  
