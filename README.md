@@ -1,4 +1,4 @@
-# Shopping Basket
+# Consumption App
 Simple REST Application to handle consumption of electricity.
 
 ## Build:
@@ -7,7 +7,7 @@ To build you will need Git and JDK 8. Be sure that your JAVA_HOME environment va
 
 ## Get the Source Code
 1. **git clone https://github.com/skovacev/shopping-basket.git**
-2. **cd shopping-basket**
+2. **cd consumption-app**
 
 ## Build from the Command Line
 To compile, test, build all jars, distribution zips, and docs use:
@@ -19,7 +19,7 @@ The first time you run the build it may take a while to download maven and all b
 Ensure JDK 8 is configured properly in the IDE. Then follow the instructions.
 *  Import project as maven project
 *  Open location where you cloned your repo
-*  Select project shopping-basket
+*  Select project consumption-app
 
 ## Documentation
 When you start your application documentation will be exposed as JSON file directly on server:

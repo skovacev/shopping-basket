@@ -4,14 +4,14 @@
     <Console name="Console" target="SYSTEM_OUT">
       <PatternLayout pattern="%d{DEFAULT} %-5p %c{1}[%L] - %m%n%ex{full}"/>
     </Console>
-    <File name="File" fileName="logs/shoppingBasket.log">
+    <File name="File" fileName="logs/consumptionBasket.log">
       <PatternLayout>
         <Pattern>%d{DEFAULT} %-5p %c{1}[%L] - %m%n%ex{full}</Pattern>
       </PatternLayout>
     </File>
   </Appenders>
   <Loggers>
-    <Logger name="com.typeqast.job.rest.logger.AppLogger" level="trace" additivity="false">
+    <Logger name="com.consumption.rest.logger.AppLogger" level="trace" additivity="false">
       <AppenderRef ref="File"/>
       <AppenderRef ref="Console"/>
     </Logger>

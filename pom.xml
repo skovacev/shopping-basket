@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.typeqast.job</groupId>
-	<artifactId>shopping-basket</artifactId>
+	<groupId>com.consumption.rest</groupId>
+	<artifactId>consumption-app</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Shopping Basket</name>
-	<description>Shopping Basket Web application</description>
+	<name>Consumption App</name>
+	<description>Consumption Web application</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -115,8 +115,8 @@
 							<version>4.1</version>
 							<basePath>http://localhost:8080</basePath>
 							<packages>
-								<package>com.typeqast.job.rest.controllers</package>
-								<package>com.typeqast.job.rest</package>
+								<package>com.consumption.rest.controllers</package>
+								<package>com.consumption.rest</package>
 							</packages>
 							<outputFile>${project.build.directory}/jsondoc-ui/jsondoc.json</outputFile>
 							<scanner>org.jsondoc.springmvc.scanner.Spring4JSONDocScanner</scanner>
